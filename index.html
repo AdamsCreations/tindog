@@ -6,46 +6,39 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TinDog</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<body>
+<body class="gradient-background">
 
   <!-- Title -->
   <section id="title">
 
-    <div id="carouselExample" class="gradient-background pt-5">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <div class="row justify-content-end">
-            <div class="col-md-5">
-              <img src="./images/iphone.png" class="mt-5" alt="phone image">
-            </div>
+    <div class="container col-xxl-8 px-4 pt-5 ">
+      <div class="row flex-lg-row-reverse align-items-center g-5 pt-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="./images/iphone.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" height="200"
+            loading="lazy">
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Meet new and interesting dogs nearby.</h1>
+
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button" class="btn btn-light btn-lg px-4 me-md-2"><svg xmlns="http://www.w3.org/2000/svg"
+                width="16" height="16" fill="currentColor" class="bi bi-apple mb-1" viewBox="0 0 16 16">
+                <path
+                  d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z" />
+                <path
+                  d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z" />
+              </svg> Download</button>
+            <button type="button" class="btn btn-outline-light btn-lg px-4"><svg xmlns="http://www.w3.org/2000/svg"
+                width="16" height="16" fill="currentColor" class="bi bi-google-play mb-1" viewBox="0 0 16 16">
+                <path
+                  d="M14.222 9.374c1.037-.61 1.037-2.137 0-2.748L11.528 5.04 8.32 8l3.207 2.96 2.694-1.586Zm-3.595 2.116L7.583 8.68 1.03 14.73c.201 1.029 1.36 1.61 2.303 1.055l7.294-4.295ZM1 13.396V2.603L6.846 8 1 13.396ZM1.03 1.27l6.553 6.05 3.044-2.81L3.333.215C2.39-.341 1.231.24 1.03 1.27Z" />
+              </svg> Download</button>
           </div>
         </div>
-        <div class="carousel-item">
-          <img src="..." class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="..." class="d-block w-100" alt="...">
-        </div>
       </div>
-    </div>
-
-    <div class="carousel-caption text-start mb-5">
-      <h1 class="display-5 fw-bold text-black">Meet new and <br/> intersting dogs <br/> nearby.</h1>
-
-      <div class="mb-5 pt-0">
-        <button class="btn btn-lg btn-light d-inline-flex align-items-center fs-5" type="button">
-          <?xml version="1.0"?><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 30 30" width="20px" height="20px">    <path d="M25.565,9.785c-0.123,0.077-3.051,1.702-3.051,5.305c0.138,4.109,3.695,5.55,3.756,5.55 c-0.061,0.077-0.537,1.963-1.947,3.94C23.204,26.283,21.962,28,20.076,28c-1.794,0-2.438-1.135-4.508-1.135 c-2.223,0-2.852,1.135-4.554,1.135c-1.886,0-3.22-1.809-4.4-3.496c-1.533-2.208-2.836-5.673-2.882-9 c-0.031-1.763,0.307-3.496,1.165-4.968c1.211-2.055,3.373-3.45,5.734-3.496c1.809-0.061,3.419,1.242,4.523,1.242 c1.058,0,3.036-1.242,5.274-1.242C21.394,7.041,23.97,7.332,25.565,9.785z M15.001,6.688c-0.322-1.61,0.567-3.22,1.395-4.247 c1.058-1.242,2.729-2.085,4.17-2.085c0.092,1.61-0.491,3.189-1.533,4.339C18.098,5.937,16.488,6.872,15.001,6.688z"/></svg>
-          download
-        </button>
-        <button class="btn btn-outline-light d-inline-flex align-items-center fs-5" type="button">
-          <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 32 32" width="20px" height="20px"><path d="M 7.75 3 C 7.675781 2.992188 7.609375 3.027344 7.53125 3.03125 C 7.464844 3.035156 7.410156 3.019531 7.34375 3.03125 C 7.332031 3.03125 7.324219 3.03125 7.3125 3.03125 C 7.28125 3.03125 7.25 3.03125 7.21875 3.03125 C 7.109375 3.054688 7.003906 3.097656 6.90625 3.15625 C 6.800781 3.210938 6.703125 3.285156 6.625 3.375 C 6.234375 3.703125 6 4.210938 6 4.6875 L 6 27.46875 C 6 27.960938 6.21875 28.554688 6.75 28.84375 C 6.789063 28.863281 6.835938 28.859375 6.875 28.875 C 6.90625 28.886719 6.9375 28.898438 6.96875 28.90625 C 7.445313 29.066406 7.941406 28.972656 8.3125 28.75 C 8.324219 28.75 8.332031 28.75 8.34375 28.75 C 8.773438 28.488281 17.75 23 17.75 23 L 22.53125 20.125 C 22.53125 20.125 26.585938 17.671875 27.125 17.34375 C 27.582031 17.066406 28.007813 16.539063 28 15.90625 C 27.992188 15.273438 27.554688 14.804688 27.125 14.5625 C 26.988281 14.484375 25.785156 13.761719 24.6875 13.09375 C 23.636719 12.453125 22.714844 11.898438 22.625 11.84375 C 22.59375 11.820313 22.5625 11.800781 22.53125 11.78125 L 17.75 8.875 C 17.75 8.875 9.050781 3.597656 8.53125 3.28125 C 8.300781 3.144531 8.027344 3.03125 7.75 3 Z M 8 6.09375 L 17.4375 15.9375 L 8 25.78125 Z M 12.8125 8.21875 C 14.578125 9.289063 16.71875 10.59375 16.71875 10.59375 L 20.40625 12.84375 L 18.8125 14.5 Z M 22.15625 13.90625 C 22.539063 14.140625 22.890625 14.347656 23.65625 14.8125 C 24.492188 15.320313 25.074219 15.644531 25.5625 15.9375 C 24.644531 16.492188 22.902344 17.566406 22.1875 18 L 20.21875 15.9375 Z M 18.8125 17.40625 L 20.40625 19.0625 L 16.71875 21.3125 C 16.71875 21.3125 14.527344 22.628906 12.78125 23.6875 Z"/></svg>
-          download
-        </button>
-      </div>
-
     </div>
   
   </section>
@@ -55,11 +48,11 @@
   <!-- Features -->
 
 
-  <section id="features">
+  <section id="features" style="background-color: white;">
 
   <!--fix row col problem features-->
     <div class="row justify-content-center mt-5 g-2 py-5 px-5">
-      <div class="feature col-lg-12 col-xl-4">
+      <div class="feature col-lg-12 col-xl-4 mb-5">
         <h3 class="fs-2 text-body-emphasis">
           <div class="feature-icon icon-square d-inline-flex align-items-center justify-content-center text-dark bg-body-secondary fs-2 mt-3">
             <svg xmlns="http://www.w3.org/2000/svg" height="30" fill="currentColor" class="bi bi-check2-circle"
@@ -108,85 +101,123 @@
   </section>
   <!-- Testimonial -->
   <section id="testimonial">
-    <div class="px-4 pt-5 my-5 text-center border-bottom bg-body-tertiary">
+    <div class="px-4 text-center border-bottom bg-body-tertiary">
       <h2 class="display-4 fs-2 fw-bold text-body-emphasis">"I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog.<br/> Woof."</h1>
       <div class="overflow-hidden" style="max-height: 30vh;">
         <div class="container px-5">
-          <img src="./images/dog-img.jpg" class=" profile-img img-fluid border shadow-lg mb-4" alt="dog image">
+          <img src="./images/dog-img.jpg" class="profile-img img-fluid border shadow-lg mb-4" alt="dog image">
           <p class="mt-2">Pebbles, New York</p>
         </div>
       </div>
-      <div class="row justify-content-center align-items-center container gap-5 pt-5 mb-5">
-        <img class="image col-sm-12 col-md-1 col-lg-2 col-xl-3" src="./images/bizinsider.png" />
-        <img class="image col-sm-12 col-md-1 col-lg-2 col-xl-3 " src="./images/mashable.png " />
-        <img class="image col-sm-12 col-md-1 col-lg-2 col-xl-3" src="./images/techcrunch.png"/>
-        <img class="image col-sm-12 col-md-1 col-lg-2 col-xl-3" src="./images/tnw.png"/>
-      </div>
+        <div class="row justify-content-center mt-5 g-5 py-5 px-5 gap-5 pt-5 mb-5">
+          <img class="image col-sm-12 col-md-3" src="./images/bizinsider.png" />
+          <img class="image col-sm-12 col-md-3 " src="./images/mashable.png " />
+          <img class="image col-sm-12 col-md-3" src="./images/techcrunch.png"/>
+          <img class="image col-sm-12 col-md-3" src="./images/tnw.png"/>
+        </div> 
     </div>
+
   </section>
   <!-- Pricing -->
-  <section id="pricing">
-    <main>
-      <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
-        <div class="col-xs-12 col-md-4">
-          <div class="card mb-4 rounded-3 shadow-sm">
-            <div class="card-header py-3">
-              <h4 class="my-0 fw-normal">Free</h4>
+  <section id="pricing" style="background-color: white;">
+    <div class="container py-3">
+      <main>
+        <div class="row justify-content-center align-items-center text-center">
+          <div class="col-md-4">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Free</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">$0<small class="text-body-secondary fw-light">/mo</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>10 users included</li>
+                  <li>2 GB of storage</li>
+                  <li>Email support</li>
+                  <li>Help center access</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-outline-dark">Sign up for free</button>
+              </div>
             </div>
-            <div class="card-body">
-              <h1 class="card-title pricing-card-title">$0<small class="text-body-secondary fw-light">/mo</small></h1>
-              <ul class="list-unstyled mt-3 mb-4">
-                <li>10 users included</li>
-                <li>2 GB of storage</li>
-                <li>Email support</li>
-                <li>Help center access</li>
-              </ul>
-              <button type="button" class="w-100 btn btn-lg btn-outline-primary ">Sign up for free</button> <!--fix row col problem features-->
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 rounded-3 shadow-sm card">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Pro</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">$15<small class="text-body-secondary fw-light">/mo</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>20 users included</li>
+                  <li>10 GB of storage</li>
+                  <li>Priority email support</li>
+                  <li>Help center access</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-dark">Get started</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 rounded-3 shadow-sm border-dark card">
+              <div class="card-header py-3 text-bg-dark border-dark">
+                <h4 class="my-0 fw-normal">Enterprise</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">$29<small class="text-body-secondary fw-light">/mo</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>30 users included</li>
+                  <li>15 GB of storage</li>
+                  <li>Phone and email support</li>
+                  <li>Help center access</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-dark">Contact us</button>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-xs-12 col-md-4">
-          <div class="card mb-4 rounded-3 shadow-sm">
-            <div class="card-header py-3">
-              <h4 class="my-0 fw-normal">Pro</h4>
-            </div>
-            <div class="card-body">
-              <h1 class="card-title pricing-card-title">$15<small class="text-body-secondary fw-light">/mo</small></h1>
-              <ul class="list-unstyled mt-3 mb-4">
-                <li>20 users included</li>
-                <li>10 GB of storage</li>
-                <li>Priority email support</li>
-                <li>Help center access</li>
-              </ul>
-              <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-12 col-md-4">
-          <div class="card mb-4 rounded-3 shadow-sm border-primary">
-            <div class="card-header py-3 text-bg-primary border-primary">
-              <h4 class="my-0 fw-normal">Enterprise</h4>
-            </div>
-            <div class="card-body">
-              <h1 class="card-title pricing-card-title">$29<small class="text-body-secondary fw-light">/mo</small></h1>
-              <ul class="list-unstyled mt-3 mb-4">
-                <li>30 users included</li>
-                <li>15 GB of storage</li>
-                <li>Phone and email support</li>
-                <li>Help center access</li>
-              </ul>
-              <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
-            </div>
-          </div>
-        </div>
-      </div>
-  
-  
-    </main>
+    
+      </main>
+    
+    </div>
   </section>
   <!-- Footer -->
   <section id="footer">
-
+    <footer class=" my-md-5 pt-md-5">
+      <div class="row ms-5">
+        <div class="col-12 col-md">
+          <small class="d-block mb-3 text-body-secondary">© tindog</small>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Features</h5>
+          <ul class="list-unstyled text-small">
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Cool stuff</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Random feature</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team feature</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Stuff for developers</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Another one</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Last time</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Resources</h5>
+          <ul class="list-unstyled text-small">
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Resource</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Resource name</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Another resource</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Final resource</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>About</h5>
+          <ul class="list-unstyled text-small">
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Locations</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Privacy</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Terms</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   </section>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
